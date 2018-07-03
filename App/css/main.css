@@ -1,0 +1,144 @@
+body {
+	font-family: 'Roboto', sans-serif; 
+	color: #5f6368;
+}
+
+html, body, #app {
+	height: 100%;
+}
+
+#app {
+	padding: 20px;
+}
+
+.noMargin {
+	margin: 0px;
+}
+/*Fonts*/
+ h1, h2, h3, h4, h5, h6 {
+     margin:0;
+     font-weight:normal;
+     letter-spacing:.025em;
+ }
+ h1, h2, h3, .h1, .h2, .h3{
+     font-family: 'Kaushan Script', cursive;
+ }
+ h4, h5, h6, h7, .h4, .h5, .h6, .h6, .h7 {
+     font-family: 'Kaushan Script', cursive;
+ }
+ 
+ h1, h2, h3, h4, h5, h6, h6, h7 .h1, .h2, .h3, .h4, .h5, .h6, .h6, .h7  {
+     color:#000;
+ }
+ 
+ h1, .h1 { font-size:25px; line-height: 24px; }
+ 
+ h2, .h2 { font-size:16px; line-height: 15px; }
+ 
+ h3, .h3 { font-size:12px; line-height: 11px;}
+ h3.large,.h3.large { font-size:14px; line-height: 13.5px;}
+ 
+ p.intro { font-size: 16px; line-height: 19.2px; }
+   
+ p.body, pBody { font-size: 12px; line-height: 14.4px; }
+ p.bodySM, pBodySM { font-size: 12px; line-height: 14.4px; }
+ p.bodyLG, pBodyLG { font-size: 14px; line-height: 16.8px; }
+   
+ p.article { font-size: 12px; line-height: 18px; }
+   
+ p.caption , .caption { font-size: 10px; line-height: 12px; }
+
+ .fontSize_8 {
+   font-size : 28px;
+}
+
+.fontSize_7 {
+   font-size : 24px;
+}
+
+.fontSize_4 {
+   font-size : 16px;
+}
+
+.fontSize_5 {
+   font-size : 14px;
+}
+
+.fontSize_6 {
+   font-size : 18px;
+}
+
+.detailsItem .btn {
+	display: none;
+}
+
+.detailsItem:hover .btn {
+    display: block;
+    text-align: left;
+}
+
+.title {
+	padding: 30px 0px;
+}
+
+.bg {
+	background-image: url('./../images/bg.jpg');
+}
+
+.imageTile {
+	background-image: url('./../images/image_tile.png');	
+}
+
+.btn {
+	white-space: normal;
+}
+
+.margin10 {
+	margin: 10px;
+}
+
+.noSideMargin {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.detailsItem {
+	min-height: 100px;
+	/*border:1px solid #ccc;*/
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.detailsItem img {
+	width:100px;
+	padding:0px 16px 0px 0px;
+	margin:0px;
+}
+
+.card {
+	/* box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+	/* transition: box-shadow 135ms cubic-bezier(.4,0,.2,1);*/
+
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+.padd {
+	padding: 16px;
+}
+.noSidePad {
+	padding-left:0px;
+	padding-right:0px;
+}
+.noTopPad {
+	padding-top:0px;
+}
+.noBottomPad {
+	padding-bottom:0px;
+}
+.noPad {
+	padding: 0px;
+}
+.noMargin {
+	margin: 0px;
+}
